@@ -11,6 +11,9 @@ int main() {
 	std::chrono::time_point<std::chrono::system_clock> start, end;///시간 측정
 	start = std::chrono::system_clock::now();
 
+	int ass;
+
+	//////////////my name is c jamm
 	vector<string> NYT_text;
 	vector<string> APW_text;
 	get_text_name(NYT_text, APW_text);
